@@ -64,9 +64,7 @@ The model generates three types of plots:
 
 ## Acknowledgments
 
-This GUI is based on an academic paper investigating common pool resource dynamics in social networks. The underlying model code is not included but is available separately.
-
-For more details and to access the model code, please visit the GitHub repository.
+This GUI is based on an academic paper investigating common pool resource dynamics in social networks. For more details about the paper, please visit the GitHub repository.
 
 ## License
 
