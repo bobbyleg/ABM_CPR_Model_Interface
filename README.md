@@ -68,6 +68,7 @@ This GUI is based on an academic paper investigating common pool resource dynami
 
 ## License
 
-This GUI is distributed under the MIT License.
+This GUI is distributed under the Creative Commons Attribution 4.0 International license.
+The DOI of the project is 10.5281/zenodo.10566363. 
 
 Feel free to explore the model, experiment with parameter settings, and gain insights into the dynamics of common pool resources!
