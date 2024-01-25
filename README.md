@@ -1,6 +1,6 @@
 # Agent-Based Common Pool Resource Model GUI
 
-Welcome to the Agent-Based Common Pool Resource (CPR) model graphical user interface (GUI)! This graphical user interface allows you to interact with and explore the results of an agent-based model that investigates the dynamics of social networks in common pool resource environments.
+Welcome to the Agent-Based Common Pool Resource (CPR) model graphical user interface (GUI)! This graphical user interface allows users to interact with and explore the results of an agent-based model that investigates the dynamics of social networks in common pool resource environments.
 
 ## Abstract
 
@@ -8,9 +8,15 @@ The study reveals that network structures, particularly skewed degree distributi
 
 ## How to Use the GUI
 
-To access the graphical user interface, open the gui.ipynb file and run all cells in order. The GUI provides an abstract of the paper on the left. In the center of the upper half of the GUI, four tabs explain the model parameters and give access to the three different output plots. On the right side of the upper half, you can select which of the output plots you want to create. The default setting creates all three. 
+### Running Python Code for Non-Experts
 
-The bottom row contains five tabs that let the user set the model parameters. 
+To run the code files, clone the repository. Downloading all the files (including the gui_plots folder) separately is possible as well, as long as the user saves all files  in same folder on their computer. All files, except the images contained in the gui_plots folder, are .ipynb files, meaning that they are Jupyter Notebooks. To run them, the user needs a compatible code editor, such as Visual Studio Code or Jupyter. 
+
+Moreover, the user requires a few Python libraries (see requirements). Downloading Anaconda is recommended for access to most of these libraries. Users must download CustomerTkinter and pillow themselves. These libraries are easily installed through the terminal using: `pip3 install customtkinter` and `pip install pillow`.
+
+### Running the GUI
+
+To access the graphical user interface, open the gui.ipynb file and run all cells in order. The GUI provides an abstract of the paper on the left. In the upper half of the GUI, four tabs explain the model parameters and give access to the three different output plots. The user can also select which of the output plots to create. The default setting creates all three. The bottom row contains five tabs that let the user set the model parameters. 
 
 ### 1. General Tab
 -	Simulations: Number of model runs.
@@ -55,11 +61,11 @@ The model generates three types of plots:
 
 ## Requirements
 
--	customtkinter (5.2.2)
+-	CustomTkinter (5.2.2)
 -	pillow (10.2.0)
--	numpy (1.24.3)
--	matplotlib (3.7.2)
--	networkx (3.1)
+-	Numpy (1.24.3)
+-	Matplotlib (3.7.2)
+-	Networkx (3.1)
 -	tqdm (4.65)
 
 ## Acknowledgments
