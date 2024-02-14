@@ -6,6 +6,8 @@ Welcome to the Agent-Based Common Pool Resource (CPR) model graphical user inter
 
 The study reveals that network structures, particularly skewed degree distributions, lead to multiple possible CPR outcomes, corresponding to alternative stable states for the same conditions. A key finding is the substantial influence of hub agents in shaping network perceptions and decisions, creating phenomena like majority illusions that significantly affect resource states and sustainability. As inequality of impacts rises, this effect disappears, but access to a state with higher welfare also disappears. These findings highlight the critical role of network hubs in CPR dynamics, offering new directions for effective management and policy-making.
 
+The paper can be found at https://github.com/bobbyleg/Centrality_and_environmental_impact/tree/main.
+
 ## How to Use the GUI
 
 ### Running Python Code for Non-Experts
@@ -75,6 +77,6 @@ This GUI is based on an academic paper investigating common pool resource dynami
 ## License
 
 This GUI is distributed under the Creative Commons Attribution 4.0 International license.
-The DOI of the project is https://doi.org/10.5281/zenodo.10566363, see https://zenodo.org/records/10566363. 
+The DOI of the project is https://doi.org/10.5281/zenodo.10566363. 
 
 Feel free to explore the model, experiment with parameter settings, and gain insights into the dynamics of common pool resources!
