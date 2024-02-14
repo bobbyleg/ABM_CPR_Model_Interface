@@ -12,13 +12,13 @@ The paper can be found at https://github.com/bobbyleg/Centrality_and_environment
 
 ### Running Python Code for Non-Experts
 
-To run the code files, clone the repository. Downloading all the files (including the gui_plots folder) separately is possible as well, as long as the user saves all files  in same folder on their computer. All files, except the images contained in the gui_plots folder, are .ipynb files, meaning that they are Jupyter Notebooks. To run them, the user needs a compatible code editor, such as Visual Studio Code or Jupyter. 
+To run the code files, clone the repository. Downloading all the files (including the `gui_plots` folder) separately is possible as well, as long as the user saves all files  in same folder on their computer. All files, except the images contained in the `gui_plots` folder, are .ipynb files, meaning that they are Jupyter Notebooks. To run them, the user needs a compatible code editor, such as Visual Studio Code or Jupyter. 
 
 Moreover, the user requires a few Python libraries (see requirements). Downloading Anaconda is recommended for access to most of these libraries. Users must download CustomerTkinter and pillow themselves. These libraries are easily installed through the terminal using: `pip3 install customtkinter` and `pip install pillow`.
 
 ### Running the GUI
 
-To access the graphical user interface, open the gui.ipynb file and run all cells in order. The GUI provides an abstract of the paper on the left. In the upper half of the GUI, four tabs explain the model parameters and give access to the three different output plots. The user can also select which of the output plots to create. The default setting creates all three. The bottom row contains five tabs that let the user set the model parameters. 
+To access the graphical user interface, open the `gui.ipynb` file and run all cells in order. The GUI provides an abstract of the paper on the left. In the upper half of the GUI, four tabs explain the model parameters and give access to the three different output plots. The user can also select which of the output plots to create. The default setting creates all three. The bottom row contains five tabs that let the user set the model parameters. 
 
 ### 1. General Tab
 -	Simulations: Number of model runs.
@@ -72,7 +72,7 @@ The model generates three types of plots:
 
 ## Acknowledgments
 
-This GUI is based on an academic paper investigating common pool resource dynamics in social networks. For more details about the paper, please visit the GitHub repository.
+This GUI is based on an academic paper investigating common pool resource dynamics in social networks. For more details about the paper, please visit the GitHub repository at https://github.com/bobbyleg/Centrality_and_environmental_impact/tree/main.
 
 ## License
 
